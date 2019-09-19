@@ -1,4 +1,11 @@
 title: Yanni IYEZE
 logo: "/images/yanni.JPG?raw=true"
 description: Hello
-theme: jekyll-theme-minimal
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
